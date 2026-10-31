@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex" />
   <title>Панель управления | Чайный дневник</title>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <!-- Скрипт загружается асинхронно и запускается только после построения страницы -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js" defer></script>
 </head>
 <body>
+  <!-- Специальный контейнер для CMS -->
+  <div id="nc-root"></div>
 </body>
 </html>
