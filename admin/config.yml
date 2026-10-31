@@ -1,9 +1,13 @@
 backend:
   name: github
   repo: nikitacherem4532/Tea-Master-Story
-  branch: main # Если на GitHub у тебя ветка master, поменяй тут на master!
+  branch: main # ВАЖНО: Если основная ветка на GitHub называется master, напиши тут master
   base_url: https://my-tea-diary-proxy.nikitacherem4532.workers.dev
-  auth_endpoint: auth # Убрал слэш, иногда это критично
+  auth_endpoint: auth
+
+# Обязательные настройки медиа (пусть висят, мы их просто не будем использовать)
+media_folder: "static/images"
+public_folder: "/images"
 
 collections:
   - name: "reviews"
