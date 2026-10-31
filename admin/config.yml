@@ -1,18 +1,13 @@
 backend:
   name: github
   repo: nikitacherem4532/Tea-Master-Story
-  branch: main 
+  branch: main # Если на GitHub у тебя ветка master, поменяй тут на master!
   base_url: https://my-tea-diary-proxy.nikitacherem4532.workers.dev
-  auth_endpoint: /auth
-
-site_url: /
-display_url: /
-logo_url: ''
+  auth_endpoint: auth # Убрал слэш, иногда это критично
 
 collections:
   - name: "reviews"
     label: "Мои рецензии"
-    label_singular: "Рецензия"
     folder: "content"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
