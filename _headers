@@ -1,0 +1,2 @@
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://cdn.jsdelivr.net; connect-src 'self' https://api.github.com https://github.com https://my-tea-diary-proxy.nikitacherem4532.workers.dev; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://avatars.githubusercontent.com;
